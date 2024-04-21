@@ -1,0 +1,51 @@
+.text-area {
+    margin: 5%;
+    color: #31363F;
+}
+
+.about {
+    margin: 5%;
+}
+
+.form-switch {
+    color: "white";
+}
+
+.pallete {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.p-btn {
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.p-btn:hover{
+    filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.6)); 
+}
+.green {
+    background-color: #87A922;
+}
+.green:hover{
+    background-color: #627254;
+}
+
+.blue {
+    background-color: #1679AB;
+}
+.blue:hover{
+    background-color: #074173;
+}
+
+.red {
+    background-color: #FF204E;
+}
+.red:hover{
+    background-color: #A0153E;
+}
